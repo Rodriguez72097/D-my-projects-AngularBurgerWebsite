@@ -1,0 +1,93 @@
+.sectionmain {
+    width: 100vw;              /* La caja ocupa el 100% del ancho visible de la ventana */
+    height: calc(100vh - 7rem);/* La caja mide el alto de la pantalla menos el header (7rem) */
+    overflow: hidden;          /* Todo lo que se salga de la caja se recorta (sin scroll) */
+    display: flex;             /* Activa flexbox para centrar el contenido */
+    justify-content: center;   /* Centra el contenido horizontalmente */
+    align-items: center;       /* Centra el contenido verticalmente (en la caja) */
+}
+
+.sectionmain img {
+    max-width: 41%;            /* La imagen nunca puede superar el 50% del ancho de la caja */
+    height: auto;              /* Mantiene la proporción original de la imagen */
+    display: block;            /* Hace que la imagen se comporte como bloque */
+    margin: 0 auto;            /* Centra horizontalmente la imagen dentro del div */
+    transform: translateY(5rem); /* Baja SOLO la imagen 5rem desde su posición natural */
+}
+
+.sectionmain h5 {
+    text-transform: uppercase; /* Convierte el título a mayúsculas */
+    color: #fff;               /* Color blanco para el texto */
+}
+
+.sectionmain p {
+    color: #e4dede;               /* Color gris claro para el párrafo */
+}
+
+.sectionmain > div {
+    margin-top: 8rem;          /* Baja TODO el contenido del div (imagen + texto) 8rem */
+}
+
+/* Estrellas dentro del menú */
+.menustart .stars {
+    color: gold;            /* color dorado de las estrellas */
+    font-size: 1rem;          /* tamaño de las estrellas */
+    margin-bottom: 0.5rem;    /* espacio debajo de las estrellas */
+}
+
+.menustart h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.menustart div {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.menustart a.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #fff; /* color del texto */
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  background-color: transparent; /* fondo inicial */
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  border-radius: 0.5rem; /* opcional: bordes redondeados */
+  transition: all 0.3s ease; /* para animar el cambio */
+}
+
+.menustart a.btn:hover {
+  color: #000;             /* color del texto al pasar el cursor */
+  background-color: #fff;  /* fondo al pasar el cursor */
+  border-color: #fff;      /* opcional: cambia el borde también */
+}
+
+
+
+
+.carousel-item {
+  transition: transform 0.2s ease-in-out !important;
+  transform: translateX(0) scale(0.90) !important; /* 98% tamaño, casi igual que el original */
+}
+
+.bi-blockquote-right {
+  font-size: 3rem;            /* tamaño grande */
+  color: white;               /* color del ícono */
+  background-color: black;    /* fondo detrás del ícono */
+  padding: 0.5rem;            /* espacio alrededor del ícono */
+  border-radius: 50%;         /* hace el fondo circular */
+  display: inline-flex;       /* permite centrar el ícono en el círculo */
+  align-items: center;
+  justify-content: center;
+}
+
+.bi-disc-fill {
+  color: white;               /* color del icono */
+  background-color: black;    /* fondo circular */
+  padding: 0.3rem;            /* espacio alrededor */
+  border-radius: 50%;         /* fondo redondo */
+  font-size: 2rem;            /* tamaño más grande */
+}

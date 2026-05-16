@@ -1,0 +1,85 @@
+    <!--header Section Starts-->
+    <header class="header">
+        <!--BarraDelMenu-->
+        <div id="menu-btn" class="fas fa-bars icons"></div>
+        <div id="search-btn" class="fas fa-search icons"></div>
+        <!--OpcionesDelMenu-->
+        <div class="navbar">
+            <a href="#home">home</a>
+            <!-- <a  [routerLink]="['/meu']">Ir al módulo</a> -->
+            <a [routerLink]="['/menu']">Menu</a>
+            <a [routerLink]="['/about']">About</a>
+            <!--LupaDeConsulta-->
+            <span class="space"></span>
+            <a [routerLink]="['/reviews']">Reviews</a>
+            <a [routerLink]="['/contact']">Contact</a>
+            <a [routerLink]="['/blogs']">Blogs</a>
+        </div>
+
+        <!--IconoCarritoDeCompras-->
+        <a href="#" class="fas fa-shopping-cart icons"></a>
+        <!--IconoSitioWeb-->
+        <a href="#home" class="logo"> <img src="assets/img/logo.png"> </a>
+
+        <!--BarraDeBusqueda-->
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search icons"></label>
+        </form>
+
+    </header>
+    <!--Header Section Ends-->
+
+
+    <!--Reviews Section Starts-->
+    <section class="sectionreviews" id="sectionreviews">
+
+        <div class="heading">
+            <img src="assets/img/title-img.png" alt="">
+            <h3>Testimonial</h3>            
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="assets/img/pic-1.png" alt="">
+                <h3>Person</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet maiores porro eaque. Maxime!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/pic-2.png" alt="">
+                <h3>Person</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet maiores porro eaque. Maxime!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/pic-3.png" alt="">
+                <h3>Person</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet maiores porro eaque. Maxime!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+    <!--Reviews Section Ends-->
